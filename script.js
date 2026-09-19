@@ -10,6 +10,10 @@ form.addEventListener('submit',(e)=>{
       result = 100;  
 
     }
+    if (boy.value.toLowerCase() == "arjun") {
+      result = 100;  
+
+    }
     if (boy.value.toLowerCase() == "sachin" && girl.value.toLowerCase() == "shreya") {
       result = "Error: She is not comfortable with Sachin, Please try with another name";
     }
